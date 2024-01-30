@@ -9,5 +9,6 @@ namespace UndetectableBrowser
     internal class Variables
     {
         public string debug_port { get; set; }
+        public static string proxySet { get; set; }
     }
 }
